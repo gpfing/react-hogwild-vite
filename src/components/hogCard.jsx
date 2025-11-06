@@ -10,7 +10,6 @@ function HogCard({ hog, hideHog }) {
   }
 
   function handleHidePigClick() {
-    // call parent to remove the hog from the list
     if (hideHog) hideHog(hog);
   }
 
